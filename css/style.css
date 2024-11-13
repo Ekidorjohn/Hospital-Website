@@ -1,0 +1,148 @@
+.header1 {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    position: fixed;
+}
+
+.navbar>ul>li>a {
+    color: blue;
+    text-decoration: none;
+}
+
+.navbar {
+    margin-top: 35px;
+    margin-left: 250px;
+}
+
+.navbar>ul {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.navbar>ul>li {
+    margin-right: 25px;
+    list-style-type: none;
+}
+
+.logo1 {
+    width: 75%;
+}
+
+.section1 {
+
+    padding-top: 100px;
+    padding-bottom: 70px;
+    background-position: center;
+    background-image: url("../image/background.jpg");
+    padding-left: 200px;
+
+}
+
+.section1>h1,
+.section1>p {
+    background-color: blue;
+    color: white;
+    width: 60%;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 7px;
+}
+
+
+.background2 {
+    width: 100%;
+}
+
+.section1>h1,
+.section1>p {
+    margin-left: 25px;
+    color: white;
+
+}
+
+.about1 {
+    width: 80%;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+
+}
+
+.section2 div {
+    width: 45%;
+}
+
+.section2>div2,
+.h1 {
+    width: 80;
+    padding-left: 50px;
+}
+
+.div2>hi.p {
+    padding: right;
+    margin: right;
+}
+
+.image1 {
+    width: 60%;
+}
+
+.section3,
+.services {
+    border: 1px solid black;
+    padding: 2%;
+    text-align: center;
+    margin: 5%;
+}
+
+.serviceDivs {
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    color: white;
+}
+
+.logo2 {
+    width: 80%;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer1>div {
+    width: 40%;
+    border: 1px solid black;
+    padding: 5%;
+    text-align: center;
+    margin: 2%;
+}
+
+.footer1 {
+    background-color: white;
+    color: black;
+}
+
+.footerdiv {}
+
+.navbar2>ul>li {
+    list-style-type: none;
+}
+
+.navbar2>ul>li>a {
+    color: black;
+    text-decoration: none;
+}
+
+.section4 {
+    text-align: center;
+    padding: 30px 0px;
+    background: dark-grey;
+}
